@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navsection{
+
+}
+.sidenav {
+    
+        width: 100px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+        top:0;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+}
+.sidenav a{
+    padding: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.sidenav a:hover{
+    color: red;
+}
+.overlay{
+    height: 100vh;
+    background-image: url(img/wp3137919-cairokee-wallpapers.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.singers{
+    height: auto;
+}
+
+
+
+/* first section  */
+.overlay{
+    background-color: rgba(216, 53, 53, 0.3);
+    height: 100vh;
+
+
+}
+.EgyParty{
+height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.ftext{
+    font-family: 'Ranga', cursive;
+    
+}
+.ftext h2{
+font-size: 80px;
+}
+.ftext p {
+    font-size: 22px;
+}
+.closeBtn{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    position: relative;
+    top: -15%;
+    left: 30%;
+
+
+}
+
+a{
+    cursor: pointer;
+
+}
+.closeBtn:hover{ 
+    color:red;
+    cursor: pointer;
+}
+.navicons i   {
+top: 50%;
+left: 15%;
+color: white;
+position: absolute;
+font-size: 30px;
+z-index: 999;
+}
+.navicon{
+    position: relative;
+}
+/* End of first section  */
+
+#singer1,#singer2,#singer3,#singer4{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* *countDown section */
+.boxes{
+    border: solid 5px white ;
+    color: white;
+    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: ranga;
+    font-size: 40px;
+}
+.e7twa2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.countDown{
+    background-image: url(img/972057.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 190px;
+    transition: all 3.5s;
+
+}
+
+
+/* !rick and morty section */
+#eye ,#eyes img {
+    position: absolute;
+    width: 22px;
+}
+.morty  {
+    width: 69%;
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+.alone {
+    position: relative;
+}
